@@ -12,8 +12,6 @@ CREATE DATABASE "DBWebMovil"
 
 -- Table: usuarios
 
-
-
 -- DROP TABLE usuarios;
 
 -- Dependiendo privilegios se ve lo que pude hacer cada usuario
