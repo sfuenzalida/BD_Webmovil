@@ -63,3 +63,19 @@ WITH (
 );
 ALTER TABLE "Servicios_user"
   OWNER TO postgres;
+  
+  
+  -- Table: publicaciones 
+  -- DROP TABLE publicaciones; 
+  CREATE TABLE publicaciones 
+  ( 
+     id_public numeric[] NOT NULL,
+     tipo text[],
+     fecha text[],
+     CONSTRAINT publicaciones_pkey PRIMARY KEY (id_public)
+  )
+  WITH ( 
+     OIDS=FALSE 
+  ); 
+  ALTER TABLE publicaciones 
+  OWNER TO postgres;
