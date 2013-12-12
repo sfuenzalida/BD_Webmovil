@@ -80,3 +80,40 @@ ALTER TABLE "Servicios_user"
   ); 
   ALTER TABLE publicaciones 
   OWNER TO postgres;
+  
+-- Table: ofer_trabajo
+
+
+-- DROP TABLE ofer_trabajo;
+
+
+
+CREATE TABLE ofer_trabajo
+
+(
+  
+id_job numeric[] NOT NULL,
+ 
+"Tipo_job" text[],
+  
+"Contacto" text[],
+  
+"Empresa" text[],
+  
+fecha text[],
+  
+CONSTRAINT ofer_trabajo_pkey PRIMARY KEY (id_job)
+
+)
+
+
+WITH (
+  
+OIDS=FALSE
+
+);
+
+
+ALTER TABLE ofer_trabajo
+  
+OWNER TO postgres;
