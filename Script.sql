@@ -67,6 +67,7 @@ ALTER TABLE "Servicios_user"
   
   -- Table: publicaciones 
   -- DROP TABLE publicaciones; 
+  -- Tabla con pequeñas palabras de publicaciones, para hacer mas rapida la busqueda.
   CREATE TABLE publicaciones 
   ( 
      id_public numeric[] NOT NULL,
