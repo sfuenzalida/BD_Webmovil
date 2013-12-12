@@ -1,5 +1,4 @@
 -- Database: "DBWebMovil"
-
 -- DROP DATABASE "DBWebMovil";
 
 CREATE DATABASE "DBWebMovil"
